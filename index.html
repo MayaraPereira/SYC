@@ -238,26 +238,6 @@
                 }
             }
 
-            var collapseToBar = $axure.player.collapseToBar = function() {
-                lastLeftPanelWidth = $('#leftPanel').width();
-                $('#leftPanel').width('55px');
-                $('.vsplitbar').hide();
-                $('#rightPanel').width($(window).width() - $('#leftPanel').width());
-                $(window).resize();
-                $('#outerContainer').trigger('resize');
-                toolBarOnly = true;
-            }
-
-            var expandFromBar = $axure.player.expandFromBar = function() {
-                if($('.vsplitbar').is(':visible')) return;
-
-                $('#leftPanel').width(lastLeftPanelWidth);
-                $('.vsplitbar').show();
-                $('#rightPanel').width($(window).width() - $('#leftPanel').width() - 1);// $('.vsplitbar').width());
-                $(window).resize();
-                $('#outerContainer').trigger('resize');
-                toolBarOnly = false;
-            }
 
         })();
 
