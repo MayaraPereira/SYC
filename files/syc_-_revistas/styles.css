@@ -995,7 +995,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:131px;
+  width:92px;
   height:47px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -1007,28 +1007,29 @@
   font-family:'Showcard Gothic Oblique', 'Showcard Gothic Normal', 'Showcard Gothic';
   font-weight:400;
   font-style:oblique;
-  font-size:20px;
-  color:#FFFFFF;
+  font-size:18px;
+  color:#1E1E1E;
 }
 #u287 {
   border-width:0px;
   position:absolute;
-  left:918px;
-  top:713px;
-  width:131px;
+  left:318px;
+  top:359px;
+  width:92px;
   height:47px;
   font-family:'Showcard Gothic Oblique', 'Showcard Gothic Normal', 'Showcard Gothic';
   font-weight:400;
   font-style:oblique;
-  font-size:20px;
-  color:#FFFFFF;
+  font-size:18px;
+  color:#1E1E1E;
 }
 #u287_text {
   border-width:0px;
   position:absolute;
-  left:2px;
-  top:11px;
-  width:127px;
+  left:0px;
+  top:0px;
+  width:0px;
+  visibility:hidden;
   word-wrap:break-word;
 }
 #u288_div {
